@@ -121,7 +121,6 @@ jobs:
       - name: Deploy
         run: |
           cp "README.md" "Release/ReadMe.txt"
-          cp "LICENSE" "Release/License.txt"
   
       - name: Compress artifacts
         run: |
